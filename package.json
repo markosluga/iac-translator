@@ -1,0 +1,23 @@
+{
+  "name": "iac-translator",
+  "version": "0.1.0",
+  "description": "A pluggable system for translating infrastructure configurations between different IaC languages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": ["iac", "infrastructure", "terraform", "cloudformation", "translator"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "fast-check": "^3.15.0"
+  }
+}
