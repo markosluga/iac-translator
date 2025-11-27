@@ -136,7 +136,10 @@
   - **Property 13: Comment preservation**
   - **Validates: Requirements 7.4**
 
-- [ ] 8. Checkpoint - Ensure all tests pass
+- [x] 8. Checkpoint - Ensure all tests pass
+
+
+
   - Ensure all tests pass, ask the user if questions arise.
 
 - [ ] 9. Implement file I/O utilities
